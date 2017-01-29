@@ -15,6 +15,16 @@ Some short description of the data.
 
 Run `make` in project root to see available scripts to run.
 
+```
+$ make
+Usage: make <command>
+
+where <command> is one of the following:
+
+validate             Validate data
+dummy                Perform a dummy action with outputs
+```
+
 ## License
 
 See [LICENSE.md](LICENSE.md).
