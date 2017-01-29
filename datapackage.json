@@ -132,7 +132,11 @@
   "name": "dataset-toronto-elected-officials",
   "title": "City of Toronto elected officials' contact info",
   "description": "This is a description, shared between README and `datapackage.json` file.",
-  "homepage": "",
+  "homepage": "http://www.toronto.ca/councillors",
+  "sources": [{
+    "name": "Toronto Data Portal",
+    "web": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=404a1f4e3159c410VgnVCM10000071d60f89RCRD&vgnextchannel=1a66e03bb8d1e310VgnVCM10000071d60f89RCRD"
+  }],
   "version": "0.1.0",
   "license": {
     "type": "OGL-Toronto-1.0",
