@@ -1,0 +1,142 @@
+{
+  "resources": [
+    {
+      "name": "contact-info",
+      "path": "data/contact-info.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 26859,
+      "schema": {
+        "fields": [
+          {
+            "name": "District name",
+            "type": "string",
+            "description": "Jurisdiction in which the elected official serves."
+          },
+          {
+            "name": "District ID",
+            "type": "number",
+            "description": "The district/area for which the Mayor or Councillor was elected."
+          },
+          {
+            "name": "Primary role",
+            "type": "string",
+            "description": "Elected official's role"
+          },
+          {
+            "name": "First name",
+            "type": "string",
+            "description": "Elected official's first name"
+          },
+          {
+            "name": "Last name",
+            "type": "string",
+            "description": "Elected official's last name"
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "description": "Left blank",
+            "constraints": {
+              "pattern": "^$"
+            }
+          },
+          {
+            "name": "Party name",
+            "type": "string",
+            "description": "Not applicable"
+          },
+          {
+            "name": "Email",
+            "type": "string",
+            "description": "Elected official's email address"
+          },
+          {
+            "name": "Photo URL",
+            "type": "string",
+            "description": "Online internet address where a photo of the elected official is available."
+          },
+          {
+            "name": "Source URL",
+            "type": "string",
+            "description": "Elected official's City of Toronto email address"
+          },
+          {
+            "name": "Website",
+            "type": "string",
+            "description": "City of Toronto's web page linking to the Mayor and Councillors' contact information"
+          },
+          {
+            "name": "Address line 1",
+            "type": "string",
+            "description": "First line of address"
+          },
+          {
+            "name": "Address line 2",
+            "type": "string",
+            "description": "Part of address"
+          },
+          {
+            "name": "Locality",
+            "type": "string",
+            "description": "Part of address"
+          },
+          {
+            "name": "Postal code",
+            "type": "string",
+            "description": "Part of address"
+          },
+          {
+            "name": "Province",
+            "type": "string",
+            "description": "Part of address"
+          },
+          {
+            "name": "Phone",
+            "type": "string",
+            "description": "Phone number"
+          },
+          {
+            "name": "Fax",
+            "type": "string",
+            "description": "Facsimile number"
+          },
+          {
+            "name": "Facebook",
+            "type": "string",
+            "description": "",
+            "constraints": {
+              "pattern": "^(https?://.+)?"
+            }
+          },
+          {
+            "name": "Twitter",
+            "type": "string",
+            "description": "",
+            "constraints": {
+              "pattern": "^(https?://.+)?"
+            }
+          },
+          {
+            "name": "Personal Website",
+            "type": "string",
+            "description": "",
+            "constraints": {
+              "pattern": "^(https?://.+)?"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "name": "dataset-toronto-elected-officials",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": {
+    "type": "OGL-Toronto-1.0",
+    "url": "http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=4a37e03bb8d1e310VgnVCM10000071d60f89RCRD"
+  },
+  "repository": "https://github.com/t0ronto-ca/dataset-toronto-elected-officials-contact-info.git"
+}
