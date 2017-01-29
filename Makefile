@@ -1,11 +1,11 @@
-setup: ## Setup requirements for running other scripts
+setup:
 	pip install -r scripts/requirements-test.txt
-
-dummy: ## Perform a dummy sample action
-	python scripts/run_dummy_action.py
 
 validate: setup ## Validate data
 	goodtables datapackage datapackage.json
+
+dummy: ## Perform a dummy action with outputs
+	python scripts/run_dummy_action.py
 
 %:
 	@true
