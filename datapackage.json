@@ -130,8 +130,8 @@
     }
   ],
   "name": "dataset-toronto-elected-officials",
-  "title": "",
-  "description": "",
+  "title": "City of Toronto elected officials' contact info",
+  "description": "This is a description, shared between README and `datapackage.json` file.",
   "homepage": "",
   "version": "0.1.0",
   "license": {
